@@ -1,0 +1,42 @@
+server:
+  port: 9002
+
+spring:
+  application:
+    name: config-config
+  profiles:
+    active: dev
+
+management:
+  endpoint:
+    shutdown:
+      enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+data:
+  env: env
+  user:
+    username: username
+    password: password
+
+---
+spring:
+  profiles: dev
+  cloud:
+    config:
+      uri: http://localhost:9001
+      label: master
+      profile: dev
+
+---
+spring:
+  profiles: prod
+  cloud:
+    config:
+      uri: http://localhost:9001
+      label: master
+      profile: prod
+
