@@ -16,13 +16,16 @@ import javax.validation.constraints.NotNull;
 public class TestController {
 
     @PostMapping("login")
-    public String login(@Valid @RequestBody LoginVo inVo,BindingResult result){
+    public String login(@Valid @RequestBody LoginVo inVo,BindingResult result) throws Exception {
         if(result.hasErrors()){
             FieldError fieldError = result.getFieldError();
             if (fieldError != null) {
                 log.error("error msg: 【{}】", fieldError.getDefaultMessage());
+                System.out.println("error msg: 【{}】" + fieldError.getDefaultMessage());
             }
         }
+
+//        throw new Exception("aaa");
         return inVo.toString();
     }
 

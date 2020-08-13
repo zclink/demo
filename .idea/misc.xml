@@ -1,39 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="FrameworkDetectionExcludesConfiguration">
-    <file type="web" url="file://$PROJECT_DIR$/springmvc-demo" />
-  </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/rocketmq-demo/pom.xml" />
-        <option value="$PROJECT_DIR$/ribbon/pom.xml" />
-        <option value="$PROJECT_DIR$/shiro-demo/pom.xml" />
-        <option value="$PROJECT_DIR$/other-demo/pom.xml" />
-        <option value="$PROJECT_DIR$/springmvc-demo/pom.xml" />
-        <option value="$PROJECT_DIR$/aop-demo/pom.xml" />
-        <option value="$PROJECT_DIR$/config-client/pom.xml" />
-        <option value="$PROJECT_DIR$/config-server/pom.xml" />
-        <option value="$PROJECT_DIR$/springcloud-config/config-client/pom.xml" />
-        <option value="$PROJECT_DIR$/rocket-demo/pom.xml" />
-        <option value="$PROJECT_DIR$/hystrix/user-service/pom.xml" />
-        <option value="$PROJECT_DIR$/hystrix/web-app-service/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot/boot-demo/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot/eureka-demo/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot/eureka-server/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot/eurka-client/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot/eureka-server2/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot/resttemplate-demo/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot/eurka-client2/pom.xml" />
-        <option value="$PROJECT_DIR$/gupao/order-service/pom.xml" />
-        <option value="$PROJECT_DIR$/gupao/user-service/pom.xml" />
-        <option value="$PROJECT_DIR$/hystrix/hystrix-demo/pom.xml" />
-        <option value="$PROJECT_DIR$/validation-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/guava-demo/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>

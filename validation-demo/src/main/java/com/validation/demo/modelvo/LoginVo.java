@@ -11,7 +11,7 @@ import java.io.Serializable;
 @AllArgsConstructor
 public class LoginVo implements Serializable {
 
-    @NotNull(message = "aaaaa")
+    @NotNull(message = "名字不能为空")
     private String name;
 
     private Integer age;

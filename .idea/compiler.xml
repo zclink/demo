@@ -6,81 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eureka-server" />
-        <module name="config-server" />
-        <module name="config-client" />
-        <module name="ribbon" />
-        <module name="shiro-demo" />
-        <module name="eureka-server (1)" />
-        <module name="web-app-service" />
-        <module name="boot-demo" />
-        <module name="aop-demo" />
-        <module name="user-service" />
-        <module name="order-service" />
-        <module name="order-service (1)" />
-        <module name="resttemplate-demo" />
-        <module name="hystrix-demo" />
-        <module name="springmvc-demo" />
-        <module name="other-demo" />
-        <module name="eurka-client" />
-        <module name="config-service" />
-        <module name="eurka-client (1)" />
-        <module name="rocket-demo" />
-        <module name="rocketmq-demo" />
-        <module name="validation-demo" />
+        <module name="guava-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="aop-demo" target="1.8" />
-      <module name="boot-demo" target="1.8" />
-      <module name="config-client" target="1.8" />
-      <module name="config-server" target="1.8" />
-      <module name="config-service" target="1.8" />
-      <module name="eureka-server" target="1.8" />
-      <module name="eureka-server (1)" target="1.8" />
-      <module name="eurka-client" target="1.8" />
-      <module name="eurka-client (1)" target="1.8" />
-      <module name="hystrix-demo" target="1.8" />
-      <module name="order-service" target="1.8" />
-      <module name="order-service (1)" target="1.8" />
-      <module name="other-demo" target="1.8" />
-      <module name="resttemplate-demo" target="1.8" />
-      <module name="ribbon" target="1.8" />
-      <module name="rocket-demo" target="1.8" />
-      <module name="rocketmq-demo" target="1.8" />
-      <module name="shiro-demo" target="1.8" />
-      <module name="springcloud-config" target="1.8" />
-      <module name="springmvc-demo" target="1.7" />
-      <module name="user-service" target="1.8" />
-      <module name="validation-demo" target="1.8" />
-      <module name="web-app-service" target="1.8" />
+      <module name="guava-demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="aop-demo" options="-parameters" />
-      <module name="boot-demo" options="-parameters" />
-      <module name="config-client" options="-parameters" />
-      <module name="config-server" options="-parameters" />
-      <module name="config-service" options="-parameters" />
-      <module name="eureka-server" options="-parameters" />
-      <module name="eureka-server (1)" options="-parameters" />
-      <module name="eurka-client" options="-parameters" />
-      <module name="eurka-client (1)" options="-parameters" />
-      <module name="hystrix-demo" options="-parameters" />
-      <module name="order-service" options="-parameters" />
-      <module name="order-service (1)" options="-parameters" />
-      <module name="other-demo" options="-parameters" />
-      <module name="resttemplate-demo" options="-parameters" />
-      <module name="ribbon" options="-parameters" />
-      <module name="rocket-demo" options="-parameters" />
-      <module name="rocketmq-demo" options="-parameters" />
-      <module name="shiro-demo" options="-parameters" />
-      <module name="springcloud-config" options="-parameters" />
-      <module name="springmvc-demo" options="" />
-      <module name="user-service" options="-parameters" />
-      <module name="validation-demo" options="-parameters" />
-      <module name="web-app-service" options="-parameters" />
+      <module name="guava-demo" options="-parameters" />
     </option>
   </component>
 </project>
