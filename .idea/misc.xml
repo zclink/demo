@@ -7,6 +7,15 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/guava-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-demo/dubbo/dubbo-service-impl/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-demo/dubbo/dubbo-service-api/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-demo/dubbo/dubbo-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-demo/springboot-demo/consumer-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-demo/springboot-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-demo/springboot-demo/service-api/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-demo/springboot-demo/service-impl/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-demo/dubbo/pom.xml" />
       </list>
     </option>
   </component>

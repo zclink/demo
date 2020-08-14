@@ -3,7 +3,16 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/demo.iml" filepath="$PROJECT_DIR$/.idea/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-demo/springboot-demo/demoaaa.iml" filepath="$PROJECT_DIR$/dubbo-demo/springboot-demo/demoaaa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-demo/dubbo/dubbo-consumer/dubbo-consumer.iml" filepath="$PROJECT_DIR$/dubbo-demo/dubbo/dubbo-consumer/dubbo-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-demo/dubbo/dubbo-demo.iml" filepath="$PROJECT_DIR$/dubbo-demo/dubbo/dubbo-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-demo/dubbo/dubbo-service-api/dubbo-service-api.iml" filepath="$PROJECT_DIR$/dubbo-demo/dubbo/dubbo-service-api/dubbo-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-demo/dubbo/dubbo-service-impl/dubbo-service-impl.iml" filepath="$PROJECT_DIR$/dubbo-demo/dubbo/dubbo-service-impl/dubbo-service-impl.iml" />
       <module fileurl="file://$PROJECT_DIR$/guava-demo/guava-demo.iml" filepath="$PROJECT_DIR$/guava-demo/guava-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-demo/springboot-demo/springboot-dubbo-client/springboot-dubbo-client.iml" filepath="$PROJECT_DIR$/dubbo-demo/springboot-demo/springboot-dubbo-client/springboot-dubbo-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-demo/springboot-demo/springboot-dubbo-demo.iml" filepath="$PROJECT_DIR$/dubbo-demo/springboot-demo/springboot-dubbo-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-demo/springboot-demo/springboot-dubbo-server-api/springboot-dubbo-server-api.iml" filepath="$PROJECT_DIR$/dubbo-demo/springboot-demo/springboot-dubbo-server-api/springboot-dubbo-server-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-demo/springboot-demo/springboot-dubbo-server-impl/springboot-dubbo-server-impl.iml" filepath="$PROJECT_DIR$/dubbo-demo/springboot-demo/springboot-dubbo-server-impl/springboot-dubbo-server-impl.iml" />
     </modules>
   </component>
 </project>

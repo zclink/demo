@@ -2,20 +2,41 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="guava-demo" />
+        <module name="dubbo-consumer" />
+        <module name="springboot-dubbo-server-impl" />
+        <module name="springboot-dubbo-server-api" />
+        <module name="dubbo-service-api" />
+        <module name="demoaaa" />
+        <module name="dubbo-service-impl" />
+        <module name="springboot-dubbo-client" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="demoaaa" target="1.8" />
+      <module name="dubbo-consumer" target="1.7" />
+      <module name="dubbo-demo" target="1.5" />
+      <module name="dubbo-service-api" target="1.5" />
+      <module name="dubbo-service-impl" target="1.7" />
       <module name="guava-demo" target="1.8" />
+      <module name="springboot-dubbo-client" target="1.8" />
+      <module name="springboot-dubbo-demo" target="1.8" />
+      <module name="springboot-dubbo-server-api" target="1.8" />
+      <module name="springboot-dubbo-server-impl" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demoaaa" options="-parameters" />
       <module name="guava-demo" options="-parameters" />
+      <module name="springboot-dubbo-client" options="-parameters" />
+      <module name="springboot-dubbo-server-api" options="-parameters" />
+      <module name="springboot-dubbo-server-impl" options="-parameters" />
     </option>
   </component>
 </project>
