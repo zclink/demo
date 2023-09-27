@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
   </component>
@@ -16,6 +16,7 @@
         <option value="$PROJECT_DIR$/dubbo-demo/springboot-demo/service-api/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo-demo/springboot-demo/service-impl/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo-demo/dubbo/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway/pom.xml" />
       </list>
     </option>
   </component>
